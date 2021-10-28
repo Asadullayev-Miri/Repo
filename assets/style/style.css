@@ -1,0 +1,41 @@
+h1{
+    display: inline-block;
+}
+
+p{
+    margin-left: 220px;
+    margin-top: 0px;
+}
+.par{
+    border-right:1px solid black;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 10px 0px 200px
+}
+#empty{
+    height: 50px;
+}
+#img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/personal-attributes-cv-758x506.jpg);
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 54);
+    display: inline-block;
+}
+#first-part{
+    margin-left: 220px;
+    display: inline-block;
+    border-left: 2px dashed gray;
+    padding-left: 20px;
+}
+#second-part{
+    display: inline-block;
+    margin-left: 200px;
+    border-left: 2px dashed gray;
+    padding-left: 20px;
+
+
+
+}
