@@ -56,6 +56,11 @@ h6 {
 
 #sm {
     margin: 12px 47%;
+    letter-spacing: ;
+}
+#sm>a:hover{
+   text-shadow: 0px 0px 25px #020636;
+   font-size: 13px;
 }
 
 #links {
@@ -70,8 +75,14 @@ section>a {
     width: 500px;
     height: 40px;
     margin: 3px 29%;
-    background-color: #0000d5;
+    background: linear-gradient(to right, #637BFF 0%, #06128A 50%, #637BFF 100%);
     text-align: center;
     padding: 9px 0px;
     box-sizing: border-box;
+}
+section>a:hover{
+    color: #06128A;
+    background:rgb(255, 255, 255);
+    border: 1px solid #06128A;
+    font-weight: bold;
 }
