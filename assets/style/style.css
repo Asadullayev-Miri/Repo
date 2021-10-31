@@ -1,41 +1,89 @@
-h1{
-    display: inline-block;
+body {
+    background-color: #e7ae37;
+    font-family: 'Roboto Mono', monospace;
 }
 
-p{
-    margin-left: 220px;
-    margin-top: 0px;
+#title {
+    text-transform: uppercase;
+    font-size: 57px;
+    color: #fff;
+    text-align: center;
+    word-spacing: -10px;
+    letter-spacing: -4px;
+    text-shadow: 8px 11px 11px black;
 }
-.par{
-    border-right:1px solid black;
-    margin: 0px 0px 0px 20px;
-    padding: 0px 10px 0px 200px
+
+#content {
+    width: 90%;
+    height: 600px;
+    background-color: rgb(250, 245, 245);
+    margin-left: 77px;
+    margin-top: 35px;
+    box-shadow: 1px -1px 37px 0px #0c0c0b;
 }
-#empty{
-    height: 50px;
+
+#line {
+    background-color: #f2dba5;
 }
-#img{
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
+
+#icons {
+    color: white;
+    margin-left: 14px;
+    letter-spacing: -3px;
+}
+
+#img {
     background-image: url(../images/personal-attributes-cv-758x506.jpg);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    background-position: center;
     border-radius: 50%;
-    border: 1px solid rgb(0, 0, 54);
-    display: inline-block;
+    margin: 21px 46%;
 }
-#first-part{
-    margin-left: 220px;
-    display: inline-block;
-    border-left: 2px dashed gray;
-    padding-left: 20px;
+
+#status {
+    width: 350px;
+    height: 85px;
+    box-sizing: border-box;
+    margin: 0px 35%;
+    text-align: center;
 }
-#second-part{
+
+h6 {
+    color: rgb(100, 100, 100);
+}
+
+#sm {
+    margin: 12px 47%;
+}
+
+#links {
+    margin: 40px 0px;
+}
+
+.linkler {
+    /* display: inline-block;
+    width: 500px;
+    height: 40px;
+    margin: 3px 29%;
+    background-color: #0000d5;
+    text-align: center;
+    padding: 9px 0px;
+    box-sizing: border-box; */
+
+}
+
+section>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: system-ui;
     display: inline-block;
-    margin-left: 200px;
-    border-left: 2px dashed gray;
-    padding-left: 20px;
-
-
-
+    width: 500px;
+    height: 40px;
+    margin: 3px 29%;
+    background-color: #0000d5;
+    text-align: center;
+    padding: 9px 0px;
+    box-sizing: border-box;
 }
