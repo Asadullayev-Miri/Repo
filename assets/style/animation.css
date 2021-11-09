@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#anime2 {
+    display: inline;
+    font-size: 150px;
+    position: absolute;
+    animation: Anime2 4.5s linear infinite;
+}
+
+#anime2:hover {
+    animation-play-state: paused;
+}
+
+audio {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@keyframes Anime2 {
+    0% {
+        top: 12%;
+        left: 0;
+        color: rgb(1, 0, 7);
+    }
+
+    25% {
+        top: -2%;
+        left: 8%;
+        color: rgb(8, 255, 193);
+    }
+
+    50% {
+        top: 60%;
+        left: 86.2%;
+        color: rgb(70, 39, 4);
+
+    }
+
+    75% {
+        top: 72.2%;
+        left: 77%;
+        color: rgb(145, 154, 235);
+    }
+
+    100% {
+        top: 12%;
+        left: 0;
+        color: rgb(241, 38, 11);
+    }
+}
